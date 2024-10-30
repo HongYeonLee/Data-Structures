@@ -36,7 +36,7 @@ element pop(LinkedStackType* s){
         return -1;
     }
     else{
-        StackNode* temp = s->top;
+        StackNode* temp = s->top; //삭제할 대상 잡고 있기
         element data = temp->data;
         s->top = s->top->link;
         free(temp);

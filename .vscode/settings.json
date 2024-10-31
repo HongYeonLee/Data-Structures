@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "malloc.h": "c"
+        "malloc.h": "c",
+        "memory.h": "c",
+        "stdlib.h": "c"
     }
 }
